@@ -40,18 +40,23 @@ b. Then unzip the labs.zip folder.
 ![Screenshot from 2020-06-25 00-06-50](https://user-images.githubusercontent.com/64689497/85614267-595fc200-b678-11ea-9490-3a423e93c651.png)
 
 c.By running ls labs command you will get the content of labs folder and pwd will give you the path.
- 
+
+![Screenshot from 2020-06-24 22-33-03](https://user-images.githubusercontent.com/64689497/85622100-f2480a80-b683-11ea-8912-5151c302f82d.png)
  
 d. Then by entering the path you will get into Lab2.1.
 
    This folder contains a file named data.txt to view this file run the following command.
    
-   Run the following -put command to copy data.txt into the test folder in HDFS:  
+   ![Screenshot from 2020-06-24 22-34-18](https://user-images.githubusercontent.com/64689497/85622114-f7a55500-b683-11ea-9c19-5c26baed64b4.png)
+
+  Run the following -put command to copy data.txt into the test folder in HDFS:  
    
        hdfs dfs -put data.txt test
    Verify that the file is in HDFS by listing the contents of test:
    
        hdfs dfs -ls test
+       
+   ![Screenshot from 2020-06-24 22-35-14](https://user-images.githubusercontent.com/64689497/85622122-fc6a0900-b683-11ea-9eb2-e4cb5a3b8eac.png)
    
   
 ### Step5. Copy a File in HDFS
