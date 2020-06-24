@@ -82,15 +82,25 @@ a. Use the get command to copy test/data.txt from HDFS into your local /tmp fold
 
 a. Put the file /home/hadoop/demos/labs/small_blocks.txt into the test folder in HDFS.
 
+
+![Screenshot from 2020-06-24 22-41-19](https://user-images.githubusercontent.com/64689497/85621179-79947e80-b682-11ea-915c-f0fcb3c944eb.png)
+
 You should now have two files in test: data.txt and small_blocks.txt.
 
 b. Run the following getmerge command:
+
+![Screenshot from 2020-06-24 22-42-42](https://user-images.githubusercontent.com/64689497/85621194-8022f600-b682-11ea-8845-fe2c4d21b6c1.png)
 
 ### Step9. Specify the Block Size and Replication Factor
 
 a. Put /home/hadoop/labs/Lab2.1/data.txt into /user/root in HDFS, giving it a blocksize of 1,048,576 bytes.
 
+![Screenshot from 2020-06-24 22-42-42](https://user-images.githubusercontent.com/64689497/85621194-8022f600-b682-11ea-8845-fe2c4d21b6c1.png)
+
 b. Run the following fsck command on data.txt.
+
+![Screenshot from 2020-06-24 22-43-12](https://user-images.githubusercontent.com/64689497/85621204-84e7aa00-b682-11ea-8c0c-ad1914e151f5.png)
+
 
 
 
