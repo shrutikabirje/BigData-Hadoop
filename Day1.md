@@ -53,6 +53,24 @@ d. Then by entering the path you will get into Lab2.1.
    
        hdfs dfs -ls test
    
+  
+### Step5. Copy a File in HDFS
+
+a. Copy the data.txt file in HDFS using the -cp command.
+
+b. Verifing that the file is in both places by using the -ls -R command on test.
+ 
+c. Deleting the data2.txt file using the -rm command.
+  
+  
+### Step6. View the Contents of a File in HDFS
+
+a. Using the ‐tail command to view the end of a file.
+
+### Step7. Getting a File from HDFS
+a. Use the get command to copy test/data.txt from HDFS into your local /tmp folder.
+
+
 
       
 
