@@ -16,10 +16,13 @@ a) Create a directory in hdfs.
     hdfs dfs -mkdir test
    
 b) Verifying that the folder is created.
+
 ![Screenshot from 2020-06-24 22-28-37](https://user-images.githubusercontent.com/64689497/85610187-667ab200-b674-11ea-8ca3-8b10508de721.png)
 
 c)Create a couple of subdirectories for test using -p and
 view the contents of a folder recursively using -R :
+
+![Screenshot from 2020-06-24 22-29-16](https://user-images.githubusercontent.com/64689497/85611382-86f73c00-b675-11ea-90fd-6b0764cc8468.png)
 
 
 
