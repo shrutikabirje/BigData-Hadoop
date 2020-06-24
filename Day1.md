@@ -59,16 +59,40 @@ d. Then by entering the path you will get into Lab2.1.
 a. Copy the data.txt file in HDFS using the -cp command.
 
 b. Verifing that the file is in both places by using the -ls -R command on test.
+
+![Screenshot from 2020-06-24 22-36-21](https://user-images.githubusercontent.com/64689497/85618968-3389eb80-b67f-11ea-8861-3e5c95eca212.png)
+
+ c. Deleting the data2.txt file using the -rm command.
  
-c. Deleting the data2.txt file using the -rm command.
-  
+ ![Screenshot from 2020-06-24 22-37-01](https://user-images.githubusercontent.com/64689497/85618988-3a186300-b67f-11ea-94ce-462e01978a1f.png)
   
 ### Step6. View the Contents of a File in HDFS
 
 a. Using the ‐tail command to view the end of a file.
 
-### Step7. Getting a File from HDFS
+![Screenshot from 2020-06-24 22-37-40](https://user-images.githubusercontent.com/64689497/85619000-400e4400-b67f-11ea-8233-c730a26a65bc.png)
+
+### Step7. Getting a File from HDFS 
+
 a. Use the get command to copy test/data.txt from HDFS into your local /tmp folder.
+
+![Screenshot from 2020-06-24 22-39-04](https://user-images.githubusercontent.com/64689497/85619012-456b8e80-b67f-11ea-8a5c-e43e0884af20.png)
+
+### Step 8. The getmerge Command
+
+a. Put the file /home/hadoop/demos/labs/small_blocks.txt into the test folder in HDFS.
+
+You should now have two files in test: data.txt and small_blocks.txt.
+
+b. Run the following getmerge command:
+
+### Step9. Specify the Block Size and Replication Factor
+
+a. Put /home/hadoop/labs/Lab2.1/data.txt into /user/root in HDFS, giving it a blocksize of 1,048,576 bytes.
+
+b. Run the following fsck command on data.txt.
+
+
 
 
 
