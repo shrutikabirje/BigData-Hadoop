@@ -24,6 +24,15 @@ view the contents of a folder recursively using -R :
 
 ![Screenshot from 2020-06-24 22-29-16](https://user-images.githubusercontent.com/64689497/85611382-86f73c00-b675-11ea-90fd-6b0764cc8468.png)
 
+### Step3. Delete directory
+  Delete the test2 folder (and recursively, its subcontents) using the -rm -R command
+  
+### Step4. Upload a File to HDFS
+a. Wget is used to download files from server.
+b. Then unzip the labs.zip folder.
+
+      
+
 
 
 
