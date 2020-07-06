@@ -44,6 +44,9 @@ Note:-
       
 ### Step 5: Once your EMR is connected run the following SQOOP command to import data from SQL database to HDFS.
 
+![Screenshot from 2020-07-02 12-25-59](https://user-images.githubusercontent.com/64689497/86563367-e280ce00-bf81-11ea-926e-3d99f76f49ec.png)
+
+
 
 ### Step 6: Now check whether the data is present in hdfs or not.
 
